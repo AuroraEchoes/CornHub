@@ -24,7 +24,7 @@ impl EventHandler for CornhubBot {
                     println!("[🌽] User {:?} requested a new farm", message.author.name);
                     command_handler::command_handler::new_farm(&self.shard, &message, context).await;
                 },
-                "*ch farm" => {
+                "*ch farm" | "*ch farm info" => {
                     println!("[🌽] User {:?} requested farm info", message.author.name);
                     command_handler::command_handler::farm_info(&self.shard, &message, context).await;
                 }

@@ -1,5 +1,5 @@
 pub mod game {
-    use std::sync::RwLock;
+    use std::{sync::RwLock, time::Instant};
 
     use serenity::model::user::User;
 
@@ -8,6 +8,7 @@ pub mod game {
     pub struct Farm {
         pub owner: u64,
         pub name: String,
+        pub last_interaction: Instant
     }
 
     pub struct Shard {
@@ -35,7 +36,7 @@ pub mod game {
 
         pub fn create_farm(&self, user: &User) {
             // This sets the default farm stats. Put this in it's own file?
-            self.cached_farms.write().unwrap().push(Farm { owner: user.id.as_u64().to_owned(), name: format!("{:?}'s farm", user.name) })
+            self.cached_farms.write().unwrap().push(Farm { owner: user.id.as_u64().to_owned(), name: format!("{:?}'s farm", user.name), last_interaction: Instant::now() })
             // TODO: send to database
         }
         
@@ -61,7 +62,7 @@ pub mod game {
 
     impl Farm {
         fn farm_clone(&self) -> Farm {
-            return Farm { owner: self.owner, name: self.name.clone() }
+            return Farm { owner: self.owner, name: self.name.clone(), last_interaction: self.last_interaction }
         }
     }
 

@@ -20,7 +20,10 @@ pub mod command_handler {
 
     pub async fn farm_info(shard: &Shard, message: &Message, context: Context) {
         if let Some(farm) = shard.info(message.author.id.as_u64()) {
-            message.reply(context.http, format!("🌽 **FARM INFO** 🌽 \nOwner: {:?}\nName: {:?}", farm.owner, farm.name)).await.unwrap();
+            message.reply(context.http, format!("🌽 **FARM INFO** 🌽 \nOwner: {:?}\nName: {:?} \nElapsed time: {:?}", farm.owner, farm.name, farm.last_interaction.elapsed())).await.unwrap();
+        }
+        else {
+            message.reply(context.http, "You don't have a farm. Use *ch farm new to create one!").await.unwrap();
         }
     }
 }
