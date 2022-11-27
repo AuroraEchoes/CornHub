@@ -1,0 +1,11 @@
+/Users/aurora/Projects/CornHub/ch_backend/target/debug/deps/parking_lot_core-e54ec6fdbcbd9859.rmeta: /Users/aurora/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/lib.rs /Users/aurora/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/parking_lot.rs /Users/aurora/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/spinwait.rs /Users/aurora/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/thread_parker/mod.rs /Users/aurora/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/util.rs /Users/aurora/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/word_lock.rs /Users/aurora/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/thread_parker/unix.rs
+
+/Users/aurora/Projects/CornHub/ch_backend/target/debug/deps/parking_lot_core-e54ec6fdbcbd9859.d: /Users/aurora/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/lib.rs /Users/aurora/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/parking_lot.rs /Users/aurora/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/spinwait.rs /Users/aurora/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/thread_parker/mod.rs /Users/aurora/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/util.rs /Users/aurora/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/word_lock.rs /Users/aurora/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/thread_parker/unix.rs
+
+/Users/aurora/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/lib.rs:
+/Users/aurora/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/parking_lot.rs:
+/Users/aurora/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/spinwait.rs:
+/Users/aurora/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/thread_parker/mod.rs:
+/Users/aurora/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/util.rs:
+/Users/aurora/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/word_lock.rs:
+/Users/aurora/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.9.4/src/thread_parker/unix.rs:
